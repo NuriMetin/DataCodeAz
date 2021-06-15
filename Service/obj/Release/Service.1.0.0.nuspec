@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Service</id>
+    <version>1.0.0</version>
+    <authors>Service</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="DataAccess" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Repository" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Dərslər\Programmer\BackEnd\Projects\DataCodeAz\Service\bin\Release\netcoreapp3.1\Service.dll" target="lib\netcoreapp3.1\Service.dll" />
+  </files>
+</package>
